@@ -20,4 +20,4 @@ const perguntas =
       "Alternativa 2"
     ]
 
-  }]
+  }];
