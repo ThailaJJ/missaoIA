@@ -20,15 +20,15 @@ const perguntas =
       "Alternativa 2"
     ]
   },
-{
-  enunciado: "Pergunta1",
+  {
+    enunciado: "Pergunta1",
     Alternativas: [
       "Alternativas 1",
       "Alternativa 2"
     ]
 
-},
-{
+  },
+  {
     enunciado: "Pergunta1",
     Alternativas: [
       "Alternativas 1",
@@ -52,14 +52,14 @@ const perguntas =
     ]
 
   }
-]
+  ]
 
 let atual - 0;
 let perguntaAtual;
 
 function mostraPergunta() {
-  perguntaAtual = perguntas [atual]
+  perguntaAtual = perguntas[atual]
   caixaPerguntas.textContent = perguntaAtual.enunciado;
 }
 
-mostraPergunta ();
+mostraPergunta();
