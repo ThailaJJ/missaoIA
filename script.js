@@ -7,10 +7,10 @@ const textoresultado = document.querySelector(".texto-resultado");
 const perguntas =
   alternativas[
   {
-    enunciado: "Pergunta1",
+    enunciado: crie uma pergunta agora,
     alternativas:
-      ["Alternativa1",
-        "Alternativa2"]
+      [iniciar,
+        nao iniciar ]
   },
 
   {
